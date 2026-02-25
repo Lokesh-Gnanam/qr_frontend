@@ -7,7 +7,7 @@ The file is securely stored in Cloudinary and the QR code contains the public fi
 
 ## 🌐 Live Demo
 
-Frontend: https://your-vercel-url.vercel.app  
+Frontend: https://qrgencode.vercel.app  
 Backend: https://qr-generator-kvjq.onrender.com  
 
 ---
