@@ -1,0 +1,37 @@
+.upload-box {
+  border: 2px dashed #E491C9;
+  border-radius: 16px;
+  padding: 40px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background-color: #F1E9E9;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.upload-box.drag-active {
+  border-color: #982598;
+  background-color: #f9e6f9;
+}
+
+.upload-box.disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.upload-icon {
+  color: #982598;
+  margin-bottom: 16px;
+}
+
+.upload-text {
+  font-size: 18px;
+  color: #15173D;
+  margin-bottom: 8px;
+}
+
+.upload-hint {
+  font-size: 14px;
+  color: #982598;
+}

@@ -1,0 +1,77 @@
+.qr-box {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 24px;
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(21, 23, 61, 0.15); /* small shadow with your dark blue */
+  text-align: center;
+}
+
+.qr-box h2 {
+  color: #15173D;
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+}
+
+.qr-image-container {
+  background: #F1E9E9;
+  padding: 20px;
+  border-radius: 12px;
+  margin: 20px 0;
+  border: 2px solid #E491C9;
+}
+
+.qr-image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.qr-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.btn {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  transition: all 0.3s;
+}
+
+.btn-primary {
+  background-color: #982598;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #7a1e7a;
+}
+
+.btn-secondary {
+  background-color: #E491C9;
+  color: #15173D;
+}
+
+.btn-secondary:hover {
+  background-color: #d675b5;
+}
+
+.btn-outline {
+  background-color: transparent;
+  border: 2px solid #982598;
+  color: #982598;
+}
+
+.btn-outline:hover {
+  background-color: #982598;
+  color: white;
+}

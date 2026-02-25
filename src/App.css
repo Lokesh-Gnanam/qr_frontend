@@ -1,0 +1,59 @@
+.app-container {
+  width: 100%;
+  max-width: 800px;
+  padding: 20px;
+}
+
+.app-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.app-header h1 {
+  color: #15173D;
+  font-size: 2rem;
+}
+
+.main-content {
+  background: white;
+  border-radius: 16px;
+  padding: 30px;
+  box-shadow: 0 8px 30px rgba(21, 23, 61, 0.1);
+}
+
+.error-message {
+  background-color: #ffebee;
+  color: #c62828;
+  padding: 15px;
+  border-radius: 8px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.error-message button {
+  background: none;
+  border: 1px solid #c62828;
+  color: #c62828;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.error-message button:hover {
+  background-color: #c62828;
+  color: white;
+}
+
+.app-footer {
+  margin-top: 40px;
+  text-align: center;
+  color: #15173D;
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+.app-footer p {
+  margin: 0;
+}
