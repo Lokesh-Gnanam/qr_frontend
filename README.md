@@ -1,16 +1,63 @@
-# React + Vite
+# 🚀 QR Generator Website
+A full-stack web application that allows users to upload files (Images, PDFs, Audio, Video) and instantly generate a QR code for accessing the file.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The file is securely stored in Cloudinary and the QR code contains the public file URL.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌐 Live Demo
 
-## React Compiler
+Frontend: https://qrgencode.vercel.app  
+Backend: https://qr-generator-kvjq.onrender.com  
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 📌 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 📁 Upload files (PNG, JPG, JPEG, PDF, MP3, WAV, MP4)
+- 🔐 Secure file storage using Cloudinary
+- 🔗 Automatic QR code generation
+- 📥 Download QR Code
+- 👀 View QR Code in browser
+- ⚡ Upload animation and status messages
+- 🌍 Fully deployed (Frontend + Backend)
+
+---
+
+## 🏗️ Tech Stack
+
+### Frontend
+- React (Vite / CRA)
+- Axios
+- CSS
+
+### Backend
+- Flask (Python)
+- Cloudinary (File Storage)
+- QRCode Library
+- Gunicorn (Production Server)
+
+### Deployment
+- Frontend → Vercel
+- Backend → Render
+- Storage → Cloudinary
+
+---
+### 📂 Project Structure
+```
+qr_generator/
+│
+├── app.py
+├── requirements.txt
+├── .env
+│
+├── frontend/
+│ ├── package.json
+│ ├── src/
+│ │ ├── components/
+│ │ ├── App.jsx
+│ │ └── main.jsx
+│ │
+│ └── public/
+│
+└── README.md
