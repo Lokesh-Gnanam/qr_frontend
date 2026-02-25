@@ -82,6 +82,7 @@ function App() {
       </main>
 
       <footer className="app-footer">
+        <p>Please Be Patient While Uploading Large Files. Backend Might Take Some Time To Process.</p>
         <p>Made by Lokesh (Artificial Intelligence and Data Science)</p>
       </footer>
     </div>
